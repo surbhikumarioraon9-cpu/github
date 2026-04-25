@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+}
+
+section {
+  padding: 40px;
+}
+
+.project {
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 10px;
+}
